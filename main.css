@@ -1,0 +1,88 @@
+*{
+    margin: 10;
+    paddin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: Orange;
+    color: NavajoWhite;
+    line-height: 1.6;
+}
+
+.site-shapochka{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: Chocolate;
+    color: NavajoWhite;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.60);
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.nav-menu{
+    font-size: 2rem;
+    font-weight: 200;
+    transition: 0.3s;
+}
+.nav-menu:hover{
+    color: #FA8072;
+}
+
+.hello{
+    text-align: center;
+    padding: 80px 20px 60px;
+    background: linear-gradient(135deg,Chocolate, SaddleBrown, Sienna);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.30);
+}
+.hello h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.card{
+    background:Peru;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.60);
+    transition: 0.3s;
+    text-align: center;
+    color: black;
+}
+.card:hover{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.90);
+    transform: translateY(-6px);
+}
+.podval{
+    text-align: center;
+    padding: 30px 0;
+    background:SaddleBrown;
+    border-top: 1px solid #eee;
+    color: black;
+    font-size: 1.1rem;
+
+}
+.pic{
+ display: inline-block;
+  max-width: 25%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+
+}
+.pic:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: scale(1.01);
+  }
